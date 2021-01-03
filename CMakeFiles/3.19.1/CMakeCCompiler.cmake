@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-gcc")
+set(CMAKE_C_COMPILER "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "7.3.0")
@@ -19,11 +19,11 @@ set(CMAKE_C_COMPILER_SYSROOT "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a
 set(CMAKE_COMPILER_SYSROOT "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/sysroot/usr")
 
 
-set(CMAKE_AR "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-ar")
-set(CMAKE_C_COMPILER_AR "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ar")
-set(CMAKE_RANLIB "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ranlib")
-set(CMAKE_LINKER "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/bin/mipsel-buildroot-linux-uclibc-ld")
+set(CMAKE_AR "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ar")
+set(CMAKE_C_COMPILER_AR "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ar")
+set(CMAKE_RANLIB "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ranlib")
+set(CMAKE_LINKER "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -72,7 +72,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc/mipsel-buildroot-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/lib/gcc;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
