@@ -72,7 +72,7 @@ void create()
 	_info.push_back(OptionInfo("displayHeight", &displayHeight, Screen::ORIGINAL_HEIGHT));
 	_info.push_back(OptionInfo("fullscreen", &fullscreen, true));
 	_info.push_back(OptionInfo("asyncBlit", &asyncBlit, false));
-	_info.push_back(OptionInfo("keyboardMode", (int*)&keyboardMode, KEYBOARD_VIRTUAL));
+	_info.push_back(OptionInfo("keyboardMode", (int*)&keyboardMode, KEYBOARD_OFF));
 #endif
 
 	_info.push_back(OptionInfo("maxFrameSkip", &maxFrameSkip, 5));

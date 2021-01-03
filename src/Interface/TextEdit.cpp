@@ -472,27 +472,27 @@ void TextEdit::keyboardPress(Action *action, State *state)
 	{
 		switch (action->getDetails()->key.keysym.sym)
 		{
-		case SDLK_UP:
+		case SDLK_SPACE:
 			_char++;
 			if (_char > '~')
 			{
 				_char = ' ';
 			}
 			break;
-		case SDLK_DOWN:
+		case SDLK_LALT:
 			_char--;
 			if (_char < ' ')
 			{
 				_char = '~';
 			}
 			break;
-		case SDLK_LEFT:
+		case SDLK_LSHIFT:
 			if (!_value.empty())
 			{
 				_value.resize(_value.length() - 1);
 			}
 			break;
-		case SDLK_RIGHT:
+		case SDLK_LCTRL:
 			if (!exceedsMaxWidth(_char))
 			{
 				_value += _char;
