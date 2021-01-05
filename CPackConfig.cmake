@@ -19,7 +19,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake-3.19/Templates/CPac
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "OpenXcom built using CMake")
 set(CPACK_GENERATOR "TXZ")
 set(CPACK_INSTALL_CMAKE_PROJECTS "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom;OpenXcom;ALL;/")
-set(CPACK_INSTALL_PREFIX "/usr/local")
+set(CPACK_INSTALL_PREFIX "/mnt")
 set(CPACK_MODULE_PATH "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/cmake/modules")
 set(CPACK_NSIS_DISPLAY_NAME "OpenXcom Extended")
 set(CPACK_NSIS_DISPLAY_NAME_SET "TRUE")

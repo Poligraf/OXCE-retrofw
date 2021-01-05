@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/mnt")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-objdump")
+  set(CMAKE_OBJDUMP "/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/applications/openxcom.desktop")
+   "/mnt/share/applications/openxcom.desktop")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/applications" TYPE FILE FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/openxcom.desktop")
+file(INSTALL DESTINATION "/mnt/share/applications" TYPE FILE FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/openxcom.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/icons/hicolor/48x48/apps/openxcom.png")
+   "/mnt/share/icons/hicolor/48x48/apps/openxcom.png")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/icons/hicolor/48x48/apps" TYPE FILE RENAME "openxcom.png" FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom_48x48.png")
+file(INSTALL DESTINATION "/mnt/share/icons/hicolor/48x48/apps" TYPE FILE RENAME "openxcom.png" FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom_48x48.png")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/icons/hicolor/128x128/apps/openxcom.png")
+   "/mnt/share/icons/hicolor/128x128/apps/openxcom.png")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/icons/hicolor/128x128/apps" TYPE FILE RENAME "openxcom.png" FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom_128x128.png")
+file(INSTALL DESTINATION "/mnt/share/icons/hicolor/128x128/apps" TYPE FILE RENAME "openxcom.png" FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom_128x128.png")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/icons/hicolor/scalable/apps/openxcom.svg")
+   "/mnt/share/icons/hicolor/scalable/apps/openxcom.svg")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/icons/hicolor/scalable/apps" TYPE FILE FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom.svg")
+file(INSTALL DESTINATION "/mnt/share/icons/hicolor/scalable/apps" TYPE FILE FILES "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/res/linux/icons/openxcom.svg")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

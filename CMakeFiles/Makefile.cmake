@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/opt/rs97tools/usr/share/buildroot/Platform/Buildroot.cmake"
+  "/opt/rs97tools/usr/share/buildroot/toolchainfile.cmake"
   "CMakeFiles/3.19.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.1/CMakeSystem.cmake"
@@ -14,8 +16,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "docs/CMakeLists.txt"
   "src/CMakeLists.txt"
   "src/git_version.h.in"
-  "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/share/buildroot/Platform/Buildroot.cmake"
-  "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/share/buildroot/toolchainfile.cmake"
   "/usr/share/cmake-3.19/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

@@ -16,8 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL"
-  "include"
+  "/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL"
   "."
   )
 set(CMAKE_DEPENDS_CHECK_CXX
@@ -403,8 +402,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL"
-  "include"
+  "/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL"
   "."
   )
 

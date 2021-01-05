@@ -9213,6 +9213,35 @@ src/CMakeFiles/openxcom.dir/Engine/GMCat.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Engine/Game.cpp.o
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mixer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_opengl.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_types.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/close_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Battlescape/Position.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Action.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Collections.h
@@ -9268,35 +9297,6 @@ src/CMakeFiles/openxcom.dir/Engine/Game.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Savegame/WeightedOptions.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/fallthrough.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/resource.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mixer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_opengl.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_types.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Engine/InteractiveSurface.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Action.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/GraphSubset.h
@@ -9509,36 +9509,65 @@ src/CMakeFiles/openxcom.dir/Engine/OpenGL.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Engine/OptionInfo.cpp.o
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/close_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Exception.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/OptionInfo.cpp
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/OptionInfo.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Engine/Options.cpp.o
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mixer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_opengl.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_types.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/close_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/CrossPlatform.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Exception.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/FileMap.h
@@ -9554,35 +9583,6 @@ src/CMakeFiles/openxcom.dir/Engine/Options.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Surface.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/md5.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/version.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mixer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_opengl.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_types.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Engine/Palette.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/CrossPlatform.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Exception.h
@@ -14185,6 +14185,32 @@ src/CMakeFiles/openxcom.dir/Interface/TextButton.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot-2019.08.1/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Interface/TextEdit.cpp.o
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
+ /opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL/close_code.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Action.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Font.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/GraphSubset.h
@@ -14202,32 +14228,6 @@ src/CMakeFiles/openxcom.dir/Interface/TextEdit.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Interface/TextEdit.cpp
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Interface/TextEdit.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/fallthrough.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_active.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_audio.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cdrom.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_config.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_cpuinfo.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_endian.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_error.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_events.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_joystick.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keyboard.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_keysym.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_loadso.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_main.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mouse.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_mutex.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_platform.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_quit.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_rwops.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_stdinc.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_thread.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_timer.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_version.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/begin_code.h
- /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/close_code.h
 src/CMakeFiles/openxcom.dir/Interface/TextList.cpp.o
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Action.h
  /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom/src/Engine/Font.h

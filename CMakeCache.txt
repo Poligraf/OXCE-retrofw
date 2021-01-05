@@ -21,10 +21,10 @@ BUILD_PACKAGE:BOOL=ON
 CHECK_CCACHE:BOOL=OFF
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-addr2line
+CMAKE_ADDR2LINE:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ar
+CMAKE_AR:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-ar
 
 //Buildroot build configuration
 CMAKE_BUILD_TYPE:STRING=Release
@@ -34,11 +34,11 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ranlib
 
 //Buildroot CXXFLAGS
 CMAKE_CXX_FLAGS:STRING=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2
@@ -50,18 +50,18 @@ CMAKE_CXX_FLAGS_DEBUG:STRING=
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Release CXXFLAGS
-CMAKE_CXX_FLAGS_RELEASE:STRING= -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE:STRING='-DNDEBUG -DDINGOO '
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ar
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-gcc-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ranlib
 
 //Buildroot CFLAGS
 CMAKE_C_FLAGS:STRING=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2
@@ -73,7 +73,7 @@ CMAKE_C_FLAGS_DEBUG:STRING=
 CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Release CFLAGS
-CMAKE_C_FLAGS_RELEASE:STRING= -DNDEBUG
+CMAKE_C_FLAGS_RELEASE:STRING='-DDINGOO -DNDEBUG '
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
@@ -136,7 +136,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/mnt
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -151,7 +151,7 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ld
+CMAKE_LINKER:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
@@ -177,13 +177,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-nm
+CMAKE_NM:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-objcopy
+CMAKE_OBJCOPY:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-objdump
+CMAKE_OBJDUMP:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -195,10 +195,10 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=OpenXcom
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-ranlib
+CMAKE_RANLIB:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-readelf
+CMAKE_READELF:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -248,10 +248,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/mipsel-buildroot-linux-uclibc-strip
+CMAKE_STRIP:FILEPATH=/opt/rs97tools/usr/bin/mipsel-RetroFW-linux-uclibc-strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/share/buildroot/toolchainfile.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/opt/rs97tools/usr/share/buildroot/toolchainfile.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -329,49 +329,49 @@ OpenXcom_BINARY_DIR:STATIC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024
 OpenXcom_SOURCE_DIR:STATIC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/OpenXcom
 
 //pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/pkg-config
+PKG_CONFIG_EXECUTABLE:FILEPATH=/opt/rs97tools/usr/bin/pkg-config
 
 //Target platform to include in the package name (win32, etc)
 TARGET_PLATFORM:STRING=
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLGFX_SDL:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL.so
+pkgcfg_lib_PKG_SDLGFX_SDL:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLGFX_SDL_gfx:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL_gfx.so
+pkgcfg_lib_PKG_SDLGFX_SDL_gfx:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL_gfx.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLGFX_pthread:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libpthread.a
+pkgcfg_lib_PKG_SDLGFX_pthread:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libpthread.a
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLIMAGE_SDL:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL.so
+pkgcfg_lib_PKG_SDLIMAGE_SDL:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLIMAGE_SDL_image:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL_image.so
+pkgcfg_lib_PKG_SDLIMAGE_SDL_image:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL_image.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLIMAGE_pthread:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libpthread.a
+pkgcfg_lib_PKG_SDLIMAGE_pthread:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libpthread.a
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLMIXER_SDL:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL.so
+pkgcfg_lib_PKG_SDLMIXER_SDL:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLMIXER_SDL_mixer:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL_mixer.so
+pkgcfg_lib_PKG_SDLMIXER_SDL_mixer:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL_mixer.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDLMIXER_pthread:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libpthread.a
+pkgcfg_lib_PKG_SDLMIXER_pthread:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libpthread.a
 
 //Path to a library.
-pkgcfg_lib_PKG_SDL_SDL:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libSDL.so
+pkgcfg_lib_PKG_SDL_SDL:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL.so
 
 //Path to a library.
-pkgcfg_lib_PKG_SDL_pthread:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libpthread.a
+pkgcfg_lib_PKG_SDL_pthread:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libpthread.a
 
 //Path to a library.
-pkgcfg_lib_PKG_YAMLCPP_yaml-cpp:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libyaml-cpp.so
+pkgcfg_lib_PKG_YAMLCPP_yaml-cpp:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libyaml-cpp.a
 
 //Path to a library.
-pkgcfg_lib_PKG_ZLIB_z:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/libz.so
+pkgcfg_lib_PKG_ZLIB_z:FILEPATH=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libz.so
 
 
 ########################
@@ -558,7 +558,7 @@ COMPILER_SUPPORTS_CXX1Z:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.29.2()]
 //Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/bin/pkg-config][v0.28()]
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/rs97tools/usr/bin/pkg-config][v0.28()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
@@ -581,17 +581,17 @@ OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-PKG_SDLGFX_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLGFX_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLGFX_CFLAGS_I:INTERNAL=
 PKG_SDLGFX_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLGFX_FOUND:INTERNAL=1
-PKG_SDLGFX_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_SDLGFX_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLGFX_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_gfx;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
+PKG_SDLGFX_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_SDLGFX_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLGFX_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_gfx;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
 PKG_SDLGFX_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
-PKG_SDLGFX_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLGFX_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLGFX_LIBRARIES:INTERNAL=SDL_gfx;SDL;pthread
-PKG_SDLGFX_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLGFX_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLGFX_LIBS:INTERNAL=
 PKG_SDLGFX_LIBS_L:INTERNAL=
 PKG_SDLGFX_LIBS_OTHER:INTERNAL=
@@ -602,31 +602,31 @@ PKG_SDLGFX_SDL_gfx_INCLUDEDIR:INTERNAL=
 PKG_SDLGFX_SDL_gfx_LIBDIR:INTERNAL=
 PKG_SDLGFX_SDL_gfx_PREFIX:INTERNAL=
 PKG_SDLGFX_SDL_gfx_VERSION:INTERNAL=
-PKG_SDLGFX_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLGFX_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLGFX_STATIC_CFLAGS_I:INTERNAL=
 PKG_SDLGFX_STATIC_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
-PKG_SDLGFX_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLGFX_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_gfx;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-liconv;-lm;-lpthread
+PKG_SDLGFX_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLGFX_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_gfx;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-lm;-lpthread
 PKG_SDLGFX_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
 PKG_SDLGFX_STATIC_LIBDIR:INTERNAL=
-PKG_SDLGFX_STATIC_LIBRARIES:INTERNAL=SDL_gfx;SDL;pthread;SDL;pthread;iconv;m;pthread
-PKG_SDLGFX_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLGFX_STATIC_LIBRARIES:INTERNAL=SDL_gfx;SDL;pthread;SDL;pthread;m;pthread
+PKG_SDLGFX_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLGFX_STATIC_LIBS:INTERNAL=
 PKG_SDLGFX_STATIC_LIBS_L:INTERNAL=
 PKG_SDLGFX_STATIC_LIBS_OTHER:INTERNAL=
 PKG_SDLGFX_STATIC_LIBS_PATHS:INTERNAL=
 PKG_SDLGFX_VERSION:INTERNAL=2.0.23
-PKG_SDLIMAGE_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLIMAGE_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLIMAGE_CFLAGS_I:INTERNAL=
 PKG_SDLIMAGE_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLIMAGE_FOUND:INTERNAL=1
-PKG_SDLIMAGE_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_SDLIMAGE_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLIMAGE_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_image;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
+PKG_SDLIMAGE_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_SDLIMAGE_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLIMAGE_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_image;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
 PKG_SDLIMAGE_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
-PKG_SDLIMAGE_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLIMAGE_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLIMAGE_LIBRARIES:INTERNAL=SDL_image;SDL;pthread
-PKG_SDLIMAGE_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLIMAGE_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLIMAGE_LIBS:INTERNAL=
 PKG_SDLIMAGE_LIBS_L:INTERNAL=
 PKG_SDLIMAGE_LIBS_OTHER:INTERNAL=
@@ -637,31 +637,31 @@ PKG_SDLIMAGE_SDL_image_INCLUDEDIR:INTERNAL=
 PKG_SDLIMAGE_SDL_image_LIBDIR:INTERNAL=
 PKG_SDLIMAGE_SDL_image_PREFIX:INTERNAL=
 PKG_SDLIMAGE_SDL_image_VERSION:INTERNAL=
-PKG_SDLIMAGE_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLIMAGE_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLIMAGE_STATIC_CFLAGS_I:INTERNAL=
 PKG_SDLIMAGE_STATIC_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
-PKG_SDLIMAGE_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLIMAGE_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_image;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-liconv;-lm;-lpthread
+PKG_SDLIMAGE_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLIMAGE_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_image;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-lm;-lpthread
 PKG_SDLIMAGE_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
 PKG_SDLIMAGE_STATIC_LIBDIR:INTERNAL=
-PKG_SDLIMAGE_STATIC_LIBRARIES:INTERNAL=SDL_image;SDL;pthread;SDL;pthread;iconv;m;pthread
-PKG_SDLIMAGE_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLIMAGE_STATIC_LIBRARIES:INTERNAL=SDL_image;SDL;pthread;SDL;pthread;m;pthread
+PKG_SDLIMAGE_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLIMAGE_STATIC_LIBS:INTERNAL=
 PKG_SDLIMAGE_STATIC_LIBS_L:INTERNAL=
 PKG_SDLIMAGE_STATIC_LIBS_OTHER:INTERNAL=
 PKG_SDLIMAGE_STATIC_LIBS_PATHS:INTERNAL=
 PKG_SDLIMAGE_VERSION:INTERNAL=1.2.12
-PKG_SDLMIXER_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLMIXER_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLMIXER_CFLAGS_I:INTERNAL=
 PKG_SDLMIXER_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLMIXER_FOUND:INTERNAL=1
-PKG_SDLMIXER_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_SDLMIXER_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLMIXER_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_mixer;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
+PKG_SDLMIXER_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_SDLMIXER_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLMIXER_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_mixer;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
 PKG_SDLMIXER_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
-PKG_SDLMIXER_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLMIXER_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLMIXER_LIBRARIES:INTERNAL=SDL_mixer;SDL;pthread
-PKG_SDLMIXER_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLMIXER_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLMIXER_LIBS:INTERNAL=
 PKG_SDLMIXER_LIBS_L:INTERNAL=
 PKG_SDLMIXER_LIBS_OTHER:INTERNAL=
@@ -672,46 +672,46 @@ PKG_SDLMIXER_SDL_mixer_INCLUDEDIR:INTERNAL=
 PKG_SDLMIXER_SDL_mixer_LIBDIR:INTERNAL=
 PKG_SDLMIXER_SDL_mixer_PREFIX:INTERNAL=
 PKG_SDLMIXER_SDL_mixer_VERSION:INTERNAL=
-PKG_SDLMIXER_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLMIXER_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDLMIXER_STATIC_CFLAGS_I:INTERNAL=
 PKG_SDLMIXER_STATIC_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
-PKG_SDLMIXER_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDLMIXER_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lSDL_mixer;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/opt/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/opt/mipsel-linux-uclibc/bin/../mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lmodplug;-lm;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-liconv;-lm;-lpthread
+PKG_SDLMIXER_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDLMIXER_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lSDL_mixer;-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lm;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-lm;-lpthread
 PKG_SDLMIXER_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
 PKG_SDLMIXER_STATIC_LIBDIR:INTERNAL=
-PKG_SDLMIXER_STATIC_LIBRARIES:INTERNAL=SDL_mixer;modplug;m;SDL;pthread;SDL;pthread;iconv;m;pthread
-PKG_SDLMIXER_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/opt/mipsel-linux-uclibc/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/opt/mipsel-linux-uclibc/bin/../mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDLMIXER_STATIC_LIBRARIES:INTERNAL=SDL_mixer;m;SDL;pthread;SDL;pthread;m;pthread
+PKG_SDLMIXER_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDLMIXER_STATIC_LIBS:INTERNAL=
 PKG_SDLMIXER_STATIC_LIBS_L:INTERNAL=
 PKG_SDLMIXER_STATIC_LIBS_OTHER:INTERNAL=
 PKG_SDLMIXER_STATIC_LIBS_PATHS:INTERNAL=
-PKG_SDLMIXER_VERSION:INTERNAL=1.2.12
-PKG_SDL_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDLMIXER_VERSION:INTERNAL=1.2.13
+PKG_SDL_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDL_CFLAGS_I:INTERNAL=
 PKG_SDL_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDL_FOUND:INTERNAL=1
-PKG_SDL_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_SDL_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDL_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
+PKG_SDL_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_SDL_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDL_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-Wl,-rpath,/usr/lib;-lSDL;-lpthread
 PKG_SDL_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
-PKG_SDL_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDL_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDL_LIBRARIES:INTERNAL=SDL;pthread
-PKG_SDL_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDL_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDL_LIBS:INTERNAL=
 PKG_SDL_LIBS_L:INTERNAL=
 PKG_SDL_LIBS_OTHER:INTERNAL=
 PKG_SDL_LIBS_PATHS:INTERNAL=
 PKG_SDL_MODULE_NAME:INTERNAL=sdl
 PKG_SDL_PREFIX:INTERNAL=/usr
-PKG_SDL_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
+PKG_SDL_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL;-D_GNU_SOURCE=1;-D_REENTRANT
 PKG_SDL_STATIC_CFLAGS_I:INTERNAL=
 PKG_SDL_STATIC_CFLAGS_OTHER:INTERNAL=-D_GNU_SOURCE=1;-D_REENTRANT
-PKG_SDL_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL
-PKG_SDL_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-liconv;-lm;-lpthread
+PKG_SDL_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL
+PKG_SDL_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-Wl,-rpath,/usr/lib;-lSDL;-lpthread;-lSDL;-lpthread;-lm;-lpthread
 PKG_SDL_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib
 PKG_SDL_STATIC_LIBDIR:INTERNAL=
-PKG_SDL_STATIC_LIBRARIES:INTERNAL=SDL;pthread;SDL;pthread;iconv;m;pthread
-PKG_SDL_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_SDL_STATIC_LIBRARIES:INTERNAL=SDL;pthread;SDL;pthread;m;pthread
+PKG_SDL_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_SDL_STATIC_LIBS:INTERNAL=
 PKG_SDL_STATIC_LIBS_L:INTERNAL=
 PKG_SDL_STATIC_LIBS_OTHER:INTERNAL=
@@ -721,67 +721,67 @@ PKG_SDL_sdl_INCLUDEDIR:INTERNAL=
 PKG_SDL_sdl_LIBDIR:INTERNAL=
 PKG_SDL_sdl_PREFIX:INTERNAL=
 PKG_SDL_sdl_VERSION:INTERNAL=
-PKG_YAMLCPP_CFLAGS:INTERNAL=-Iinclude
+PKG_YAMLCPP_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PKG_YAMLCPP_CFLAGS_I:INTERNAL=
 PKG_YAMLCPP_CFLAGS_OTHER:INTERNAL=
 PKG_YAMLCPP_FOUND:INTERNAL=1
-PKG_YAMLCPP_INCLUDEDIR:INTERNAL=include
-PKG_YAMLCPP_INCLUDE_DIRS:INTERNAL=include
-PKG_YAMLCPP_LDFLAGS:INTERNAL=-Llib;-lyaml-cpp
+PKG_YAMLCPP_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_YAMLCPP_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_YAMLCPP_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lyaml-cpp
 PKG_YAMLCPP_LDFLAGS_OTHER:INTERNAL=
-PKG_YAMLCPP_LIBDIR:INTERNAL=lib
+PKG_YAMLCPP_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_YAMLCPP_LIBRARIES:INTERNAL=yaml-cpp
-PKG_YAMLCPP_LIBRARY_DIRS:INTERNAL=lib
+PKG_YAMLCPP_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_YAMLCPP_LIBS:INTERNAL=
 PKG_YAMLCPP_LIBS_L:INTERNAL=
 PKG_YAMLCPP_LIBS_OTHER:INTERNAL=
 PKG_YAMLCPP_LIBS_PATHS:INTERNAL=
 PKG_YAMLCPP_MODULE_NAME:INTERNAL=yaml-cpp
-PKG_YAMLCPP_PREFIX:INTERNAL=
-PKG_YAMLCPP_STATIC_CFLAGS:INTERNAL=-Iinclude
+PKG_YAMLCPP_PREFIX:INTERNAL=/usr
+PKG_YAMLCPP_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PKG_YAMLCPP_STATIC_CFLAGS_I:INTERNAL=
 PKG_YAMLCPP_STATIC_CFLAGS_OTHER:INTERNAL=
-PKG_YAMLCPP_STATIC_INCLUDE_DIRS:INTERNAL=include
-PKG_YAMLCPP_STATIC_LDFLAGS:INTERNAL=-Llib;-lyaml-cpp
+PKG_YAMLCPP_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_YAMLCPP_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lyaml-cpp
 PKG_YAMLCPP_STATIC_LDFLAGS_OTHER:INTERNAL=
 PKG_YAMLCPP_STATIC_LIBDIR:INTERNAL=
 PKG_YAMLCPP_STATIC_LIBRARIES:INTERNAL=yaml-cpp
-PKG_YAMLCPP_STATIC_LIBRARY_DIRS:INTERNAL=lib
+PKG_YAMLCPP_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_YAMLCPP_STATIC_LIBS:INTERNAL=
 PKG_YAMLCPP_STATIC_LIBS_L:INTERNAL=
 PKG_YAMLCPP_STATIC_LIBS_OTHER:INTERNAL=
 PKG_YAMLCPP_STATIC_LIBS_PATHS:INTERNAL=
-PKG_YAMLCPP_VERSION:INTERNAL=0.6.0
+PKG_YAMLCPP_VERSION:INTERNAL=0.5.2
 PKG_YAMLCPP_yaml-cpp_INCLUDEDIR:INTERNAL=
 PKG_YAMLCPP_yaml-cpp_LIBDIR:INTERNAL=
 PKG_YAMLCPP_yaml-cpp_PREFIX:INTERNAL=
 PKG_YAMLCPP_yaml-cpp_VERSION:INTERNAL=
-PKG_ZLIB_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
+PKG_ZLIB_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PKG_ZLIB_CFLAGS_I:INTERNAL=
 PKG_ZLIB_CFLAGS_OTHER:INTERNAL=
 PKG_ZLIB_FOUND:INTERNAL=1
-PKG_ZLIB_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_ZLIB_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_ZLIB_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lz
+PKG_ZLIB_INCLUDEDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_ZLIB_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_ZLIB_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lz
 PKG_ZLIB_LDFLAGS_OTHER:INTERNAL=
-PKG_ZLIB_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_ZLIB_LIBDIR:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_ZLIB_LIBRARIES:INTERNAL=z
-PKG_ZLIB_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_ZLIB_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_ZLIB_LIBS:INTERNAL=
 PKG_ZLIB_LIBS_L:INTERNAL=
 PKG_ZLIB_LIBS_OTHER:INTERNAL=
 PKG_ZLIB_LIBS_PATHS:INTERNAL=
 PKG_ZLIB_MODULE_NAME:INTERNAL=zlib
 PKG_ZLIB_PREFIX:INTERNAL=/usr
-PKG_ZLIB_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
+PKG_ZLIB_STATIC_CFLAGS:INTERNAL=-I/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PKG_ZLIB_STATIC_CFLAGS_I:INTERNAL=
 PKG_ZLIB_STATIC_CFLAGS_OTHER:INTERNAL=
-PKG_ZLIB_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include
-PKG_ZLIB_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib;-lz
+PKG_ZLIB_STATIC_INCLUDE_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PKG_ZLIB_STATIC_LDFLAGS:INTERNAL=-L/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lz
 PKG_ZLIB_STATIC_LDFLAGS_OTHER:INTERNAL=
 PKG_ZLIB_STATIC_LIBDIR:INTERNAL=
 PKG_ZLIB_STATIC_LIBRARIES:INTERNAL=z
-PKG_ZLIB_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/mipsel-linux-uclibc/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib
+PKG_ZLIB_STATIC_LIBRARY_DIRS:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PKG_ZLIB_STATIC_LIBS:INTERNAL=
 PKG_ZLIB_STATIC_LIBS_L:INTERNAL=
 PKG_ZLIB_STATIC_LIBS_OTHER:INTERNAL=
@@ -792,7 +792,7 @@ PKG_ZLIB_zlib_LIBDIR:INTERNAL=
 PKG_ZLIB_zlib_PREFIX:INTERNAL=
 PKG_ZLIB_zlib_VERSION:INTERNAL=
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/mnt
 __pkg_config_arguments_PKG_SDL:INTERNAL=REQUIRED;sdl
 __pkg_config_arguments_PKG_SDLGFX:INTERNAL=REQUIRED;SDL_gfx
 __pkg_config_arguments_PKG_SDLIMAGE:INTERNAL=REQUIRED;SDL_image
@@ -831,5 +831,5 @@ pkgcfg_lib_PKG_SDL_pthread-ADVANCED:INTERNAL=1
 pkgcfg_lib_PKG_YAMLCPP_yaml-cpp-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_ZLIB_z
 pkgcfg_lib_PKG_ZLIB_z-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=lib
+prefix_result:INTERNAL=/opt/rs97tools/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 
